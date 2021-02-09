@@ -1,3 +1,6 @@
+# w tym pliku są te rzeczy które będą ignorowane przez Dockera
+# czyli jak w DockerFile jest polecenie do `# kopiujemy wszystkie pozostałe pliki` to będą kopiuowane pliki ale OPRÓCZ tych które są zdefiniowane tutaj w tym pliku .dockerignore
+
 .git
 node_modules
 npm-debug.log
